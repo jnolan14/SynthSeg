@@ -38,10 +38,10 @@ requests-oauthlib
 rsa
 scipy
 six
-tensorboard
-tensorboard-plugin-wit
-tensorflow-estimator
-tensorflow-gpu
+tensorboard==2.13.0
+tensorboard-plugin-wit==1.8.1
+tensorflow-estimator==2.13.0
+tensorflow-gpu==2.13.1
 termcolor
 urllib3
 Werkzeug
