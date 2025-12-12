@@ -5,7 +5,7 @@ import setuptools
 
 python_version = sys.version[:3]
 
-if (python_version != '3.6') & (python_version != '3.8'):
+if (python_version != '3.6') & (python_version != '3.8') & (python_version != '3.9'):
     raise Exception('Setup.py only works with python version 3.6 or 3.8, not {}'.format(python_version))
 
 else:
