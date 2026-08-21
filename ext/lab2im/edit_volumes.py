@@ -76,7 +76,7 @@ import csv
 import shutil
 import numpy as np
 import tensorflow as tf
-import keras.layers as KL
+from tensorflow.keras import layers as KL
 from keras.models import Model
 from scipy.ndimage.filters import convolve
 from scipy.ndimage import label as scipy_label

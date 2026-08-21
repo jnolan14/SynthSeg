@@ -18,10 +18,10 @@ from ext.neuron import layers
 # third party
 import numpy as np
 import tensorflow as tf
-import keras
-import keras.layers as KL
-from keras.models import Model
-import keras.backend as K
+from tensorflow import keras
+from tensorflow.keras import layers as KL
+from tensorflow.keras.models import Model
+from tensorflow.keras import backend as K
 
 # force fused=False for BatchNormalization calls on ARM64 Mac platform
 fused_batch_norm = False if (platform.system() == 'Darwin' and platform.machine() == 'arm64') else None
